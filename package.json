@@ -1,6 +1,6 @@
 {
   "name": "@yggdrasil_fenrir/ytdlp-wrapper",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Cross-platform TypeScript wrapper for yt-dlp",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
