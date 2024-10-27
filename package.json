@@ -32,11 +32,11 @@
     "ts-node": "^10.9.2"
   },
   "bugs": {
-    "url": "https://github.com/erlindcekaj/ytdlp-wrapper/issues"
+    "url": "https://github.com/BifrostBuilder/ytdlp-wrapper/issues"
   },
-  "homepage": "https://github.com/erlindcekaj/ytdlp-wrapper#readme",
+  "homepage": "https://github.com/BifrostBuilder/ytdlp-wrapper#readme",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/erlindcekaj/ytdlp-wrapper.git"
+    "url": "git+https://github.com/BifrostBuilder/ytdlp-wrapper.git"
   }
 }
