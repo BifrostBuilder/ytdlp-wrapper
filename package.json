@@ -1,5 +1,5 @@
 {
-  "name": "ytdlp-wrapper",
+  "name": "@yggdrasil_fenrir/ytdlp-wrapper",
   "version": "1.0.0",
   "description": "Cross-platform TypeScript wrapper for yt-dlp",
   "main": "dist/index.js",
@@ -30,5 +30,13 @@
   },
   "dependencies": {
     "ts-node": "^10.9.2"
+  },
+  "bugs": {
+    "url": "https://github.com/erlindcekaj/ytdlp-wrapper/issues"
+  },
+  "homepage": "https://github.com/erlindcekaj/ytdlp-wrapper#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/erlindcekaj/ytdlp-wrapper.git"
   }
 }

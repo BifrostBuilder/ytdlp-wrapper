@@ -5,13 +5,13 @@ A TypeScript wrapper for yt-dlp with cross-platform binary support.
 ## Installation
 
 ```bash
-npm install ytdlp-wrapper
+npm i @yggdrasil_fenrir/ytdlp-wrapper
 ```
 
 ## Usage
 
 ```typescript
-import { YtDlp } from 'ytdlp-wrapper';
+import { YtDlp } from '@yggdrasil_fenrir/ytdlp-wrapper';
 
 const ytdlp = new YtDlp();
 

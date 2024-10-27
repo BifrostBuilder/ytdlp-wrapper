@@ -1,8 +1,13 @@
 import { platform } from 'os';
 import { join } from 'path';
+import path_1 = require("path");
 
-const BINARIES_DIR = join(__dirname, '..', 'bin');
 
+let BINARIES_DIR = join(__dirname, '..', 'bin');
+if (!(process.cwd() === join(__dirname, '..'))) {
+ BINARIES_DIR = path_1.join(path_1.resolve("node_modules"), "@yggdrasil_fenrir/ytdlp-wrapper", 'bin');
+ 
+}
 export function getYtDlpPath(): string {
   const os = platform();
   switch (os) {
